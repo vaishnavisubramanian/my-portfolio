@@ -1,0 +1,39 @@
+body {
+    background-color: #FFD43A;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    width: 1808px;
+    background-color: #333;
+    position: relative;
+    top: -8px;
+    left: -8px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 55px;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    text-decoration: underline 2px #FFD43A;
+}
+
+a:hover {
+    text-decoration: underline 2px #FFD43A;
+}
