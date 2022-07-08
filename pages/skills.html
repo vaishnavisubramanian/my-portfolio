@@ -5,22 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <link rel="stylesheet" href="./../assets/css/skills.css" />
 </head>
 
 <body>
-    <ul>
+    <div class="navbar">
+        <li><a href="./about.html" class="nav">About</a></li>
+        <li><a href="./gallery.html" class="nav">Gallery</a></li>
+        <li><a href="#skills" id="active" class="nav">Skills</a></li>
+        <li><a href="./../index.html" class="nav">Home</a></li>
+    </div>
 
+    <div class="black"></div>
+    <p class="skills">SKILLS</p>
+    <div class="first-div">
+        <a href="./tech.html" class="first-link">
+            <img src="./../assets/images/prog.jpg" alt="pic" class="image-tech" />
+            <p class="text-tech">TECH</p>
+        </a>
+    </div>
 
-
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./gallery.html">Gallery</a></li>
-        <li>
-            <a class="active" href="#skills">Skills</a>
-
-        </li>
-        <li><a href="./../index.html">Home</a></li>
-    </ul>
+    <div class="second-div">
+        <img src="./../assets/images/habit(1).jpg" alt="pic" class="image-els" />
+        <p class="text-els">ELS</p>
+    </div>
+    <div class="third-div">
+        <img src="./../assets/images/extracurricular-activities(1).jpg" alt="pic" class="image-others" />
+        <p class="text-others">OTHERS</p>
+    </div>
 </body>
 
 </html>

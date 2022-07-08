@@ -1,15 +1,82 @@
 body {
     background-color: #FFD43A;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    list-style-type: none;
+.navbar {
     overflow: hidden;
-    width: 1808px;
-    background-color: #333;
-    position: relative;
-    top: -8px;
-    left: -8px;
+    background-color: black;
+    width: 1848px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 55px;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: x-large;
+    margin: 0;
+}
+
+.dropbtn:hover {
+    text-decoration: underline 2px #FFD43A;
+}
+
+
+/* .navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+} */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 54px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#active {
+    text-decoration: underline 2px #FFD43A;
+}
+
+a:hover {
+    text-decoration: underline 2px #FFD43A;
 }
 
 li {
@@ -28,12 +95,181 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #111;
-}
-
-.active {
-    text-decoration: underline 2px #FFD43A;
+    color: white;
 }
 
 a:hover {
     text-decoration: underline 2px #FFD43A;
+}
+
+.black {
+    background-color: black;
+    border: 2px solid black;
+    width: 360px;
+    height: 90px;
+    margin-left: 180px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.gallery {
+    font-size: 500%;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.album_trip {
+    background-color: black;
+    color: white;
+    margin-top: 210px;
+    height: 960px;
+    width: 1500px;
+    margin-left: 160px;
+    border-radius: 20px;
+}
+
+.grid-long {
+    margin-top: 50px;
+    width: 1000px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 50px;
+    /* border: 2px solid red; */
+}
+
+.blue1 {
+    border-radius: 20px;
+    width: 340px;
+    margin-left: 50px;
+}
+
+.blue2 {
+    border-radius: 20px;
+    width: 340px;
+    margin-left: 625px;
+    margin-top: -460px;
+}
+
+.grid-1 {
+    border-radius: 20px;
+    height: 300px;
+    width: 430px;
+    background-color: wheat;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.grid-2 {
+    border-radius: 20px;
+    height: 300px;
+    width: 430px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.grid-3 {
+    border-radius: 20px;
+    height: 300px;
+    width: 430px;
+    background-color: red;
+    margin-top: -300px;
+    margin-left: 1010px;
+    /* position: absolute; */
+}
+
+.context {
+    letter-spacing: 2px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 35px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+/* .no_of_pics {
+    float: right;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-right: 50px;
+    margin-top: 35px;
+} */
+
+.album-g {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    height: 990px;
+    width: 1500px;
+    margin-left: 160px;
+    border-radius: 20px;
+}
+
+.grid-4 {
+    border-radius: 20px;
+    height: 830px;
+    /* width: 430px; */
+    background-color: wheat;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.grid-5 {
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.grid-6 {
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.grid-7 {
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.grid-8 {
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.grid-9 {
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.grid-10 {
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-left: 50px;
 }

@@ -1,0 +1,319 @@
+                body {
+                    background-color: #FFD43A;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                .navbar {
+                    overflow: hidden;
+                    background-color: black;
+                    width: 1848px;
+                    margin-top: -8px;
+                    margin-left: -8px;
+                }
+                
+                .navbar a {
+                    float: left;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 35px;
+                    text-decoration: none;
+                }
+                
+                .dropdown {
+                    float: left;
+                    overflow: hidden;
+                }
+                
+                .dropdown .dropbtn {
+                    border: none;
+                    outline: none;
+                    color: white;
+                    padding: 14px 55px;
+                    background-color: inherit;
+                    font-family: inherit;
+                    font-size: x-large;
+                    margin: 0;
+                }
+                
+                .dropbtn:hover {
+                    text-decoration: underline 2px #FFD43A;
+                }
+                
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: black;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+                }
+                
+                .dropdown-content a {
+                    float: none;
+                    color: white;
+                    padding: 12px 54px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                }
+                
+                .dropdown-content a:hover {
+                    background-color: black;
+                }
+                
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+                
+                .name {
+                    color: black;
+                    opacity: .2;
+                    -webkit-text-fill-color: #FFD43A;
+                    -webkit-text-stroke-width: 6px;
+                    -webkit-text-stroke-color: white;
+                    font-size: 270px;
+                    position: absolute;
+                    margin-top: 250px;
+                    margin-left: 510px;
+                }
+                
+                .about {
+                    font-size: 500%;
+                    color: white;
+                    font-weight: bolder;
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-left: 150px;
+                }
+                
+                .text {
+                    color: black;
+                    width: 1000px;
+                    margin-top: 240px;
+                    margin-left: 150px;
+                    font-size: 140%;
+                }
+                
+                .profile {
+                    position: absolute;
+                    margin-top: -185px;
+                    margin-left: 1200px;
+                    opacity: .2;
+                }
+                
+                #active {
+                    text-decoration: underline 2px #FFD43A;
+                }
+                
+                a:hover {
+                    text-decoration: underline 2px #FFD43A;
+                }
+                
+                li {
+                    float: right;
+                }
+                
+                li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 55px;
+                    text-decoration: none;
+                    font-size: x-large;
+                    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                }
+                
+                li a:hover:not(.active) {
+                    background-color: #111;
+                    color: white;
+                }
+                
+                a:hover {
+                    text-decoration: underline 2px #FFD43A;
+                }
+                
+                .black {
+                    background-color: black;
+                    border: 2px solid black;
+                    width: 260px;
+                    height: 90px;
+                    margin-left: 177px;
+                    margin-top: 50px;
+                    position: absolute;
+                }
+                
+                .skills {
+                    font-size: 500%;
+                    color: white;
+                    font-weight: bolder;
+                    position: absolute;
+                    margin-top: 50px;
+                    margin-left: 150px;
+                }
+                
+                .front-end {
+                    background-color: black;
+                    color: white;
+                    margin-top: 210px;
+                    height: 1150px;
+                    width: 1500px;
+                    margin-left: 160px;
+                    border-radius: 20px;
+                }
+                
+                .context-1 {
+                    font-size: 500%;
+                    font-weight: bolder;
+                    padding-top: 60px;
+                    padding-left: 60px;
+                }
+                
+                .div-html {
+                    width: 660px;
+                    height: 400px;
+                    background-color: white;
+                    margin-left: 60px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                
+                .img-logo {
+                    height: 300px;
+                    margin-top: 55px;
+                }
+                
+                .div-css {
+                    float: right;
+                    width: 660px;
+                    height: 400px;
+                    background-color: white;
+                    margin-top: -400px;
+                    margin-right: 60px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                /* .img-css {
+    height: 300px;
+    margin-top: 55px;
+} */
+                
+                .div-js {
+                    width: 660px;
+                    height: 400px;
+                    background-color: white;
+                    margin-top: 60px;
+                    margin-left: 60px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                
+                .back-end {
+                    background-color: black;
+                    color: white;
+                    margin-top: 150px;
+                    height: 1150px;
+                    width: 1500px;
+                    margin-left: 160px;
+                    border-radius: 20px;
+                }
+                
+                .context-2 {
+                    font-size: 500%;
+                    font-weight: bolder;
+                    padding-top: 60px;
+                    padding-left: 60px;
+                }
+                
+                .div-mysql {
+                    width: 660px;
+                    height: 400px;
+                    background-color: white;
+                    margin-left: 60px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                
+                .div-java {
+                    float: right;
+                    width: 660px;
+                    height: 400px;
+                    background-color: white;
+                    margin-top: -400px;
+                    margin-right: 60px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                
+                .div-ruby {
+                    width: 660px;
+                    height: 400px;
+                    background-color: white;
+                    margin-top: 60px;
+                    margin-left: 60px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                
+                .div-ror {
+                    float: right;
+                    width: 660px;
+                    height: 400px;
+                    background-color: white;
+                    margin-top: -400px;
+                    margin-right: 60px;
+                    border-radius: 20px;
+                    text-align: center;
+                }
+                /* #htmltitle { */
+                /* visibility: hidden; */
+                /* position: absolute; */
+                /* top: ; */
+                /* left: 477px; */
+                /* display: none; */
+                /* color: black;
+        font-size: 60px;
+        font-weight: bold; */
+                /* transition: 3s; */
+                /* } */
+                /* #htmltitle:hover { */
+                /* display: block; */
+                /* transition: 2s; */
+                /* top: 600px; */
+                /* } */
+                /* font .div-ror {
+        float: right;
+        width: 660px;
+        height: 400px;
+        background-color: white;
+        margin-top: -400px;
+        margin-right: 60px;
+        border-radius: 20px;
+        text-align: center; */
+                /* } */
+                /* .div-html:hover {
+            background: rgba(0, 0, 0, 0.051);
+        } */
+                /* .div-html:hover {
+        filter: blur(9px);
+        -webkit-filter: blur(9px);
+    } */
+                /* .overlay { */
+                /* position: absolute; */
+                /* top: 0;
+    bottom: 0;
+    left: 9.5%; */
+                /* right: 0;
+    margin-top: -355px;
+    width: 660px;
+    height: 400px;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: red;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay:hover {
+    opacity: 1;
+}#htmltitle
